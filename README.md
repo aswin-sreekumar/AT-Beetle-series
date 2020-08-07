@@ -9,13 +9,9 @@ Features a basic 4W Arduino bot controlled using bluetooth
 
 ---------------------------------------------------
 
-The AT Beetle Series consists of 3 versions
+The AT Beetle Series currently consists of 1 version
 
 Beetle 1.0 : Bot programmed in Arduino.
-
-Beetle 2.0 : Battery level indicator included and LEDs added for bot status display.
-
-Beetle 3.0 : Bot programmed in Embedded C.
 
 -----------------------------------------------------
 
