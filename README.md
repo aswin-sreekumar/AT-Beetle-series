@@ -14,3 +14,5 @@ Beetle 1.0 : Bot programmed in Arduino.
 Beetle 2.0 : Battery level indicator included and LEDs added for bot status display.
 
 Beetle 3.0 : Bot programmed in Embedded C.
+
+Beetle 1.0_ard - Arduino sketch for Beetle 1.0
