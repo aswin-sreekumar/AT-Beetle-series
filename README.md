@@ -19,7 +19,7 @@ Beetle 3.0 : Bot programmed in Embedded C.
 
 -----------------------------------------------------
 
-Beetle 1.0_ard - Arduino sketch for Beetle 1.0
+Beetle 1.0 - Arduino sketch for Beetle 1.0
 
 blueBase 1.0 - Python program for PC control of Beetle 1.0 
 
