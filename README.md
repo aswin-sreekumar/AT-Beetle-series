@@ -16,3 +16,4 @@ Beetle 2.0 : Battery level indicator included and LEDs added for bot status disp
 Beetle 3.0 : Bot programmed in Embedded C.
 
 Beetle 1.0_ard - Arduino sketch for Beetle 1.0
+blueBase 1.0 - Python program for PC control of Beetle 1.0 
