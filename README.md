@@ -3,8 +3,6 @@ Bluetooth controlled 4W bot using Arduino
 
 Designed and Developed by ASWIN SREEKUMAR
 
-From ASIMOV TECHNOLOGIES
-
 Features a basic 4W Arduino bot controlled using bluetooth
 
 ---------------------------------------------------
