@@ -1,5 +1,6 @@
 # AT-Beetle-series
 Bluetooth controlled 4W bot using Arduino
+
 Features a basic 4W differential drive bot controlled using bluetooth
 
 ---------------------------------------------------
@@ -10,7 +11,7 @@ Beetle 1.0 : Bot programmed in Arduino.
 
 Beetle 2.0 : Battery charge indicator and status LEDs added.
 
-Beetle 3.0 : Bot programmed in AVR Embedded C
+Beetle 3.0 : Bot programmed in AVR Embedded C (under development)
 
 -----------------------------------------------------
 
