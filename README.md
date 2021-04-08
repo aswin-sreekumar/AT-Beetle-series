@@ -1,17 +1,16 @@
 # AT-Beetle-series
 Bluetooth controlled 4W bot using Arduino
-
-Designed and Developed by ASWIN SREEKUMAR
-
-Features a basic 4W Arduino bot controlled using bluetooth
+Features a basic 4W differential drive bot controlled using bluetooth
 
 ---------------------------------------------------
 
-The AT Beetle Series currently consists of 2 versions
+### The AT Beetle Series currently consists of 2 versions
 
 Beetle 1.0 : Bot programmed in Arduino.
 
 Beetle 2.0 : Battery charge indicator and status LEDs added.
+
+Beetle 3.0 : Bot programmed in AVR Embedded C
 
 -----------------------------------------------------
 
