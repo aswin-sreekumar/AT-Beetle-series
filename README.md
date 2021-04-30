@@ -11,7 +11,7 @@ Beetle 1.0 : Bot programmed in Arduino. Find documentation [here](https://drive.
 
 Beetle 2.0 : Battery charge indicator and status LEDs added. Find documentation [here](https://drive.google.com/file/d/1F99GfaOCCNUwm-hSwoWTLs1zhBT_0lGp/view?usp=sharing)
 
-Beetle 3.0 : Bot programmed in AVR Embedded C (under development)
+Beetle 3.0 : Bot with stand-alone Atmega328p programmed in AVR Embedded C (under development)
 
 -----------------------------------------------------
 
