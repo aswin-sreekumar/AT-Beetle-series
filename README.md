@@ -1,5 +1,5 @@
 # Beetle-V1-series
-Features a basic 4W differential drive bot controlled using bluetooth, programmed in Arduino.
+Features a basic 4W differential drive bot controlled using bluetooth, programmed in Arduino. Consists of a removable compact control board with embedded components. Uses Arduino Nano, L293D motor driver IC, HC05 Bluetooth module as major components.
 
 ### Beetle V1 Series currently consists of 2 versions
 
