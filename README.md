@@ -3,7 +3,7 @@ Features a basic 4W differential drive bot controlled using bluetooth, programme
 
 ### Beetle V1 Series currently consists of 2 versions
 
-Beetle 1.0 : Bot programmed in Arduino. Find documentation [here](https://drive.google.com/file/d/1O8jsXvyHGSvJ-NoJk-A0u-jEzZmBzqlN/view?usp=sharing)
+Beetle 1.0 : Bot programmed in Arduino. Find documentation [here](https://drive.google.com/file/d/1H8mcwFhFoOXd1WlOg6coQMSA7BYLAQFO/view?usp=sharing)
 
 Beetle 1.1 : Battery charge indicator and status LEDs added. Find documentation [here](https://drive.google.com/file/d/1WrD1UES0iQiyWsx6fhYPGwo6KrXmscAf/view?usp=sharing)
 
@@ -18,11 +18,35 @@ Beetle_1.1 - Arduino sketch for Beetle 1.0
 
 blueBase 1.1 - Python program for PC control of Beetle 1.1
 
-------------------------------------------------------
-
 ## Beetle 1.0
+### Design of bot
+Minimalistic and compact design is the main aim of the project, still leaving a considerable space on the base considering future upgrades and expansion to project.
 
+### Control board
+Major features compared to contemporary designs:
+- No jumper wires used. Entire wiring includes solder lines at bottom side and wires on top side soldered to bottom.
+- Motor driver IC L293D used as the current consumption of DC motors are far less than the channel limit of the IC. The L293D facilitates continuous output current of 600mA per channel, while the motors consume only 240 mA per channel, making it an ideal choice.
+- Communication module, microcontroller and motor driver embedded into a single board.
+- Female headers used for replacing microcontroller and motor driver and IC base used for replacing motor driver IC (L293D).
+- Connector pins used for battery power input and motor power output.
+- Entire board screwed to base, making it removable.
 ## Beetle 1.1
+### Features added:
+1. Battery charge level indicator:
+    - Battery level constantly monitored.
+    - Transmits battery charge percentage on request.
+    - Motor power cut-off at low battery voltage.
+2. LEDs to display status of bot:
+    - 2 x 5mm LEDs (red and blue) included in control board.
+    - Red LED to indicate low battery level state.
+    - Blue LED to indicate status of Bluetooth communication and bot.
+
+### LED display status
+Alternative blinking of red and blue LEDs: Initialising and setting up bot.
+- Blue LED blink: Data received through HC05 module.
+- Red LED: Bot’s battery is low and needs to be recharged.
+### Control board
+The input voltage of battery source is fed into A6 pin of Arduino Nano using a potential divider. The voltage measured is calibrated with actual data and the values are monitored constantly by the microcontroller.
 
 ## Gallery
 ### Circuit
