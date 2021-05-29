@@ -3,7 +3,7 @@ Features a basic 4W differential drive bot controlled using bluetooth, programme
 
 ### Beetle V1 Series currently consists of 2 versions
 
-Beetle 1.0 : Bot programmed in Arduino. Find documentation [here](https://drive.google.com/file/d/1zO7JFjFa-oMhz331dvwPZa2MU5DBCaKO/view?usp=sharing)
+Beetle 1.0 : Bot programmed in Arduino. Find documentation [here](https://drive.google.com/file/d/1H8mcwFhFoOXd1WlOg6coQMSA7BYLAQFO/view?usp=sharing)
 
 Beetle 1.1 : Battery charge indicator and status LEDs added. Find documentation [here](https://drive.google.com/file/d/1_amt8vW4VBF1P7W0dKoGqkytMkOZn43F/view?usp=sharing)
 
